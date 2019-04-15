@@ -36,9 +36,9 @@ def to_sendgrid(args):
     sg = SendGridAPIClient(args.key)
     response = sg.send(message)
     # debug
-    print(response.status_code)
-    print(response.body)
-    print(response.headers)
+    #print(response.status_code)
+    #print(response.body)
+    #print(response.headers)
 
 def main():
 
